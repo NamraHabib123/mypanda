@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "793141147570",
+    "project_id": "foodpand2-ed2a8",
+    "storage_bucket": "foodpand2-ed2a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793141147570:android:6489cfa3ce6a974e6416ab",
+        "android_client_info": {
+          "package_name": "com.example.foodpand2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793141147570-vi6ot4cdm0tf67ict0a4cra7a7rm2ev8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbKyRN7E1C5YS-Z74eBevnMeFAgwME0BA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793141147570-vi6ot4cdm0tf67ict0a4cra7a7rm2ev8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
