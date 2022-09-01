@@ -16,7 +16,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity {
-    EditText resturantnames, price, num_of_reviews,rating ;
+    EditText resturantnames, price, num_of_reviews,raating ;
     Button btnsubmit;
    String name;
    int Price,reviews,Rating;
@@ -31,11 +31,11 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
 
 
-        resturantnames=findViewById(R.id.resturantname);
-        price= findViewById(R.id.price);
-        num_of_reviews=findViewById(R.id.noofreviews);
-        rating=findViewById(R.id.rating);
-        btnsubmit=findViewById(R.id.submit);
+//        resturantnames=findViewById(R.id.resturantname);
+//        price= findViewById(R.id.price);
+//        num_of_reviews=findViewById(R.id.noofreviews);
+//        raating=findViewById(R.id.rating);
+//        btnsubmit=findViewById(R.id.submit);
 
         myfirebasedata= FirebaseDatabase.getInstance();
         myreference= myfirebasedata.getReference("Mypanda");
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         name= resturantnames.getText().toString();
        Price= Integer.valueOf(price.getText().toString());
        reviews= Integer.valueOf(num_of_reviews.getText().toString());
-       Rating= Integer.valueOf(rating.getText().toString());
+       Rating= Integer.valueOf(raating.getText().toString());
 
     }
 
